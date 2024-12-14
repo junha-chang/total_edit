@@ -1,0 +1,199 @@
+/* 전체 요소에 공통 적용 */
+.div,
+.div * {
+  box-sizing: border-box;
+}
+
+/* 부모 컨테이너 */
+.div {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* 16:9 비율 유지 */
+  position: relative;
+  overflow: hidden;
+}
+
+/* 배경 이미지 */
+.main-page {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: -100;
+  top: 0;
+  object-fit: cover;
+}
+.image-container {
+  width: 100%; /* 부모 컨테이너의 너비에 맞게 조정 */
+  height: auto; /* 부모 컨테이너의 비율 유지 */
+  display: flex; /* 가운데 정렬을 위해 flex 사용 */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* 컨테이너 외부로 삐져나온 부분을 숨김 */
+  position: relative;
+}
+
+.responsive-image {
+  width: 100%; /* 이미지의 너비를 컨테이너에 맞춤 */
+  height: auto; /* 비율을 유지하면서 높이를 자동으로 조정 */
+  object-fit: cover; /* 이미지가 컨테이너를 완전히 채우도록 설정 */
+}
+
+.posters {
+  position: absolute;
+  left: 130px;
+  top: 750px;
+  object-fit: cover;
+}
+.menu1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "NetflixSans-Medium", Arial, sans-serif; /* 대체 폰트 추가 */
+  font-size: 28px;
+  font-weight: 500;
+  position: absolute;
+  left: 787px;
+  top: 86px;
+  z-index: 10;
+  width: 110px;
+  height: 62px;
+}
+.menu2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "NetflixSans-Medium", Arial, sans-serif; /* 대체 폰트 추가 */
+  font-size: 28px;
+  font-weight: 500;
+  position: absolute;
+  left: 960px;
+  top: 86px;
+  z-index: 10;
+  width: 110px;
+  height: 62px;
+}
+.menu3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "NetflixSans-Medium", Arial, sans-serif; /* 대체 폰트 추가 */
+  font-size: 28px;
+  font-weight: 500;
+  position: absolute;
+  left: 1114px;
+  top: 86px;
+  z-index: 10;
+  width: 110px;
+  height: 62px;
+}
+.menu4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "NetflixSans-Medium", Arial, sans-serif; /* 대체 폰트 추가 */
+  font-size: 28px;
+  font-weight: 500;
+  position: absolute;
+  left: 1322px;
+  top: 86px;
+  z-index: 10;
+  width: 110px;
+  height: 62px;
+}
+
+.button-danger,
+.button-danger * {
+  box-sizing: border-box;
+}
+.button-danger {
+  background: linear-gradient(to left, #ec221f, #ec221f);
+  border-radius: var(--var-sds-size-radius-200, 8px);
+  border-style: solid;
+  border-color: var(--var-sds-color-border-danger-secondary, #c00f0c);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-300, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-200, 8px);
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1570px;
+  top: 65px;
+  overflow: hidden;
+}
+.button {
+  color: var(--var-sds-color-text-danger-on-danger, #fee9e7);
+  text-align: left;
+  font-family: var(
+    --single-line-body-base-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--single-line-body-base-font-size, 16px);
+  line-height: var(--single-line-body-base-line-height, 100%);
+  font-weight: var(--single-line-body-base-font-weight, 400);
+  position: relative;
+}
+.line {
+  opacity: 70%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  width: 640px;
+  height: 4px;
+  position: absolute;
+  left: 780px;
+  top: 135px;
+  overflow: auto;
+}
+/* 공통 스타일: 이미지 기본 숨김 */
+.hover-images img {
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+/* Episode 이미지 크기와 위치 조정 */
+.menu1:hover ~ .hover-images .episode-image {
+  display: block;
+  top: 0px; /* 화면 상단에서 위치 */
+  left: 0px; /* 화면 왼쪽에서 위치 */
+  width: 100vw; /* 이미지 너비 */
+  height: auto; /* 비율 유지 */
+}
+
+/* Series 이미지 크기와 위치 조정 */
+.menu2:hover ~ .hover-images .series-image {
+  display: block;
+  top: 0px; /* 화면 상단에서 위치 */
+  left: 0px; /* 화면 왼쪽에서 위치 */
+  width: 100vw;
+  height: auto;
+}
+
+/* Characters 이미지 크기와 위치 조정 */
+.menu3:hover ~ .hover-images .characters-image {
+  display: block;
+  top: 100px;
+  left: 0px;
+  width: 100vw;
+  height: auto;
+}
+
+/* Top6 이미지 크기와 위치 조정 */
+.menu4:hover ~ .hover-images .top6-image {
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: auto;
+}
+
+/* Posters 이미지 크기와 위치 조정 */
+.posters:hover ~ .hover-images .posters-image {
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: auto;
+}
