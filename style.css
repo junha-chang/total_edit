@@ -101,7 +101,7 @@
   justify-content: center;
 }
 .profile {
-  width: 1920px;
+  width: 100vw;
   height: 1080px;
   position: absolute;
   left: calc(50% - 964px);
@@ -206,7 +206,7 @@
     rgba(20, 12, 24, 1) 0%,
     rgba(20, 20, 20, 1) 100%
   );
-  width: 1920px;
+  width: 100vw;
   height: 189px;
   position: absolute;
   left: -4px;
@@ -245,7 +245,7 @@
     rgba(98, 76, 84, 1) 0%,
     rgba(20, 12, 24, 1) 100%
   );
-  width: 1920px;
+  width: 100vw;
   height: 2261px;
   position: absolute;
   left: 0px;
@@ -1622,7 +1622,7 @@
     rgba(17, 12, 9, 1) 58.72213840484619%,
     rgba(65, 24, 17, 1) 100%
   );
-  width: 1920px;
+  width: 100vw;
   height: 4142px;
   position: absolute;
   left: 0px;
@@ -1634,14 +1634,14 @@
     rgba(121, 83, 59, 100) 0%,
     rgba(65, 24, 17, 100) 25%
   );
-  width: 1920px;
+  width: 100vw;
   height: 8490px;
   position: absolute;
   left: 0px;
   top: 4131px;
 }
 .omg-3-d-char-1 {
-  width: 1920px;
+  width: 100vw;
   height: 1080px;
   position: absolute;
   left: -50px;
@@ -1649,7 +1649,7 @@
   object-fit: cover;
 }
 .subway {
-  width: 1921px;
+  width: 100vw;
   height: 1077px;
   position: absolute;
   left: 50%;
@@ -4629,7 +4629,7 @@
   height: 167px;
 }
 .sun-rise-sky-1 {
-  width: 1920px;
+  width: 100vw;
   height: 2045px;
   position: absolute;
   left: -60px;
@@ -4726,7 +4726,7 @@
   justify-content: center;
 }
 .main-1 {
-  width: 100%;
+  width: 100vw;
 
   height: 2438px;
   position: absolute;
