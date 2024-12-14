@@ -104,7 +104,7 @@
   width: 100vw;
   height: 1080px;
   position: absolute;
-  left: calc(50% - 964px);
+  left: 0px;
   top: 14882px;
   object-fit: cover;
 }
@@ -183,7 +183,7 @@
   width: 250px;
   height: 251px;
   position: absolute;
-  left: 300px;
+  left: 310px;
   top: 15324px;
   overflow: hidden;
 }
@@ -1644,7 +1644,7 @@
   width: 100vw;
   height: 1080px;
   position: absolute;
-  left: -50px;
+  left: 0px;
   top: 9464px;
   object-fit: cover;
 }
@@ -1675,17 +1675,17 @@
   justify-content: center;
 }
 .cloud-2 {
-  width: 2070.69px;
+  width: 100vw;
   height: 1506px;
   position: absolute;
-  left: -137px;
-  top: 3868.68px;
+  left: 0px;
+  top: 4068.68px;
   transform-origin: 0 0;
-  transform: rotate(-5.006deg) scale(1, 1);
+
   object-fit: cover;
 }
 .cloud-3 {
-  width: 1938px;
+  width: 100vw;
   height: 1588px;
   position: absolute;
   left: -9px;
@@ -4632,7 +4632,7 @@
   width: 100vw;
   height: 2045px;
   position: absolute;
-  left: -60px;
+  left: 0px;
   top: 10592px;
   object-fit: cover;
 }
