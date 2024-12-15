@@ -799,6 +799,7 @@
   font-size: 40px;
   font-weight: 700;
   position: absolute;
+  margin-left: 50px;
   left: calc(50% - 368px);
   top: 12886px;
   width: 734px;
@@ -4687,7 +4688,7 @@
   color: #ffffff;
   text-align: center;
   font-family: "NetflixSans-Bold", sans-serif;
-  font-size: 46px;
+  font-size: 44px;
   font-weight: 700;
   position: absolute;
   left: 900px;
@@ -6026,4 +6027,7 @@ header h1 {
 }
 #scroll-image {
   transition: opacity 0.2s ease-out; /* 투명도 애니메이션 추가 */
+}
+.scroll-image {
+  transition: opacity 0.2s ease-out; /* 부드러운 전환 효과 */
 }
