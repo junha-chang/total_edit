@@ -799,7 +799,7 @@
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   left: calc(50% - 368px);
   top: 12886px;
   width: 734px;
