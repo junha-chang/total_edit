@@ -5961,3 +5961,69 @@
   margin-top: 3315px;
   overflow: auto;
 }
+
+body {
+  background: #222; /* 어두운 배경색 */
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff; /* 텍스트 기본 색상 */
+}
+.container {
+  max-width: 60em;
+  min-width: 45em;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+nav {
+  position: fixed; /* 화면 상단 고정 */
+  width: 100%; /* 화면 너비에 맞춤 */
+  top: 0;
+  z-index: 3; /* 헤더 위에 표시 */
+}
+nav ul {
+  float: right; /* 메뉴를 오른쪽 정렬 */
+  list-style-type: none; /* 목록 아이템의 기본 점 제거 */
+}
+nav a {
+  color: #fff; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+  transition: all 0.3s; /* 부드러운 색상 전환 효과 */
+}
+nav a:hover {
+  color: #ddd; /* 마우스 오버 시 링크 색상 변경 */
+}
+
+header {
+  position: relative;
+  background-color: #fd7777; /* 헤더 배경색 */
+  padding: 10em 0 8em; /* 위, 아래 여백 */
+  z-index: 2; /* 네비게이션 아래 표시 */
+}
+header h1 {
+  font-size: 4em; /* 큰 글자 크기 */
+  text-transform: uppercase; /* 대문자로 변환 */
+  text-align: center; /* 가운데 정렬 */
+}
+#about {
+  background: #e7e3da; /* 밝은 배경색 */
+  height: 70em; /* 긴 섹션 높이 */
+  padding: 5em 0; /* 위, 아래 패딩 */
+}
+#about p {
+  line-height: 2em; /* 문단 간격 */
+  font-size: 1.4em; /* 큰 텍스트 크기 */
+  color: #222; /* 어두운 텍스트 */
+}
+#nav-bg {
+  background: #222; /* 네비게이션 배경색 */
+  position: fixed;
+  height: 5em;
+  width: 100%;
+  top: 0;
+  z-index: 1; /* 네비게이션 뒤 배치 */
+}
+#scroll-image {
+  transition: opacity 0.2s ease-out; /* 투명도 애니메이션 추가 */
+}

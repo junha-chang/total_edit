@@ -1133,7 +1133,24 @@
           </span>
         </span>
       </div>
-      <img class="one-room-1" src="./img/one-room-10.png" />
+      <img id="scroll-image" class="one-room-1" src="./img/one-room-10.png" />
+      <script>
+        const image = document.getElementById("scroll-image");
+        const range = 200;
+
+        window.addEventListener("scroll", () => {
+          const rect = image.getBoundingClientRect();
+          const windowHeight = window.innerHeight;
+          const distance = Math.abs(
+            rect.top + rect.height / 2 - windowHeight / 2
+          );
+          const maxDistance = windowHeight / 2;
+
+          let opacity = 1 - (distance / maxDistance) * 0.7;
+          opacity = Math.max(0.3, Math.min(1, opacity));
+          image.style.opacity = opacity;
+        });
+      </script>
       <img class="eat-a-meal-alone" src="./img/eat-a-meal-alone0.png" />
       <div class="div85">자연스레 스크린 타임도 함께 증가하고있습니다.</div>
       <div class="rectangle-64"></div>
