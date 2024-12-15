@@ -2793,7 +2793,7 @@
   font-size: 32px;
   font-weight: 700;
   position: absolute;
-  left: 406px;
+  left: 356px;
   top: 7356px;
   display: flex;
   align-items: center;
@@ -2804,7 +2804,7 @@
   width: 10px;
   height: 40px;
   position: absolute;
-  left: 388px;
+  left: 340px;
   top: 7356px;
 }
 .group-99 {
@@ -3612,7 +3612,7 @@
   width: 495px;
   height: 176px;
   position: absolute;
-  left: 955px;
+  left: 935px;
   top: 7567px;
 }
 .rectangle-68 {
@@ -3626,7 +3626,7 @@
   color: #ffffff;
   text-align: left;
   position: absolute;
-  left: 974px;
+  left: 954px;
   top: 7520px;
   width: 456px;
   height: 270px;
@@ -4632,7 +4632,7 @@
   width: 100vw;
   height: 2045px;
   position: absolute;
-  left: 0px;
+  left: -20px;
   top: 10592px;
   object-fit: cover;
 }
@@ -4657,7 +4657,7 @@
   font-size: 127px;
   font-weight: 700;
   position: absolute;
-  left: 581px;
+  left: 557px;
   top: 11384px;
   width: 634px;
   height: 196px;
@@ -5829,6 +5829,14 @@
   top: 8033px;
   object-fit: cover;
 }
+.chart-5 {
+  width: 630px;
+  height: 360px;
+  position: absolute;
+  left: 330px;
+  top: 7466px;
+  object-fit: cover;
+}
 .one-room-1 {
   width: 508px;
   height: 508px;
@@ -5900,7 +5908,7 @@
   height: 0px;
   position: absolute;
   margin-left: 307px;
-  margin-top: 8655px;
+  margin-top: 9050px;
   overflow: auto;
 }
 .line-9 {
