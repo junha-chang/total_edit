@@ -800,7 +800,7 @@
   font-weight: 700;
   position: absolute;
   /* margin-left: 50px; */
-  left: calc(50% - 368px);
+  left: calc(50% - 338px);
   top: 12886px;
   width: 734px;
   height: 63px;
@@ -5867,7 +5867,7 @@
   font-size: 32px;
   font-weight: 700;
   position: absolute;
-  left: calc(50% - 352px);
+  left: calc(50% - 320px);
   top: 4045px;
   display: flex;
   align-items: center;
