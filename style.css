@@ -3619,7 +3619,7 @@
   width: 381px;
   height: 245px;
   position: absolute;
-  left: 474px;
+  left: 430px;
   top: 8084px;
 }
 .ott-2024-3-175-2019-893-ott-2020-119-1-956-2022-2023-7-8-3-057-2024-4-3-175-ott {
@@ -3663,7 +3663,7 @@
   letter-spacing: -0.05em;
   font-weight: 700;
   position: absolute;
-  left: 966px;
+  left: 896px;
   top: 7888px;
   width: 567px;
   height: 113px;
@@ -3680,7 +3680,7 @@
   color: #ffffff;
   text-align: left;
   position: absolute;
-  left: 426px;
+  left: 456px;
   top: 8055px;
   width: 342px;
   height: 307px;
@@ -5818,6 +5818,15 @@
   position: absolute;
   left: 220px;
   top: 6650px;
+  object-fit: cover;
+}
+
+.chart-6 {
+  width: 650px;
+  height: 300px;
+  position: absolute;
+  left: 850px;
+  top: 8033px;
   object-fit: cover;
 }
 .one-room-1 {
