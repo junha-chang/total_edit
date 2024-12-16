@@ -104,7 +104,7 @@
   width: 1920px;
   height: 1080px;
   position: absolute;
-  left: 0px;
+  left: -75px;
   top: 14882px;
   object-fit: cover;
 }
@@ -183,7 +183,7 @@
   width: 250px;
   height: 251px;
   position: absolute;
-  left: 375px;
+  left: 300px;
   top: 15324px;
   overflow: hidden;
 }
